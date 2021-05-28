@@ -31,7 +31,13 @@
     <Compile Include="Program.fs" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Expecto" Version="9.0.2" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="2.1.3" />
+    <PackageReference Include="MySql.Data" Version="8.0.25" />
+    <PackageReference Include="Npgsql" Version="5.0.5" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\..\src\Dapper.FSharp\Dapper.FSharp.fsproj" />
   </ItemGroup>
-  <Import Project="..\..\.paket\Paket.Restore.targets" />
+  <!--<Import Project="..\..\.paket\Paket.Restore.targets" />-->
 </Project>

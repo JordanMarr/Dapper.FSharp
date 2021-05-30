@@ -10,7 +10,7 @@
     <PackageIconUrl>https://github.com/JordanMarr/Dapper.FSharp.Linq/raw/master/logo.png</PackageIconUrl>
     <PackageTags>fsharp;dapper;linq;database;mssql;mysql;postgresql</PackageTags>
     <Authors>Roman Provazník, Jordan Marr</Authors>
-    <Version>2.1.1</Version>
+    <Version>2.1.2</Version>
     <PackageReleaseNotes>Contains new 'column' and 'exclude' operations in insert and update Linq builders.</PackageReleaseNotes>
 
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
